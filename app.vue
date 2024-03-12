@@ -1,7 +1,7 @@
 <template>
     <div>
         <CommonButton />
-        <SettingsButton />
-        <PrimeButton>Hello, PrimeButton</PrimeButton>
+        <SettingsButton username="hello" />
+        <PrimeButton label="Label of Btn" />
     </div>
 </template>
