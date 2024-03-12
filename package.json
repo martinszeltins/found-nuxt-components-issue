@@ -15,6 +15,8 @@
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
     "vue-tsc": "1.8.27",
-    "floating-vue": "^5.2.2"
+    "floating-vue": "^5.2.2",
+    "primevue": "3.49.1",
+    "nuxt-primevue": "0.3.1"
   }
 }
