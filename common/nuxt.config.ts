@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     },
 
     modules: [
+        '@nuxtjs/i18n', // This breaks all auto-import component typings (components not recognized anymore)
         '@vueuse/nuxt',
         'nuxt-primevue'
     ],
