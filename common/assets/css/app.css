@@ -1,0 +1,40 @@
+@import 'primevue/resources/themes/saga-blue/theme.css';
+
+.my-custom-class {
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+    background: yellow;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .flex-center {
+        @apply flex justify-center items-center;
+    }
+
+    .absolute-center {
+        @apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2;
+    }
+
+    .appearance-textfield {
+        -moz-appearance:textfield;
+    }
+
+    .disabled-element {
+        @apply opacity-40 pointer-events-none;
+    }
+
+    .overflow-overlay {
+        overflow: overlay;
+    }
+
+    .align-items-center {
+        @apply items-center;
+    }
+}
