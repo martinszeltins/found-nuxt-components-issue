@@ -8,6 +8,10 @@ export default defineNuxtConfig({
         'nuxt-primevue'
     ],
 
+    css: [
+        '~/common/assets/css/app.css',
+    ],
+
     primevue: {
         options: {
             ripple: false,
