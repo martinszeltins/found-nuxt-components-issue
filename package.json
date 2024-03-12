@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@vueuse/nuxt": "^10.9.0",
-    "@nuxtjs/i18n": "8.0.0"
+    "@nuxtjs/i18n": "8.1.1"
   }
 }
